@@ -90,5 +90,7 @@ $(document).ready(function() {
 
 	$('.close').click (function () {
 		$('.result-container').addClass("hidden");
+        $(window).scrollTop(0);
+        location.reload();
 	});
 });
