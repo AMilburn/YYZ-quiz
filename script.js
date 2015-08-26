@@ -1,5 +1,7 @@
 $(document).ready(function() {
 
+    smoothScroll.init();
+
 	!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');
 	
 
@@ -90,7 +92,7 @@ $(document).ready(function() {
 
 	$('.close').click (function () {
 		$('.result-container').addClass("hidden");
-        $(window).scrollTop(0);
         location.reload();
+        $(window).scrollTop(0);
 	});
 });

@@ -76,7 +76,7 @@ a.start:hover {
 	border: 3px solid #F0DFBC;
 }
 header {
-	background: linear-gradient(rgba(17, 35, 120, 0.3), rgba(17, 35, 120, 1.0)), url(toronto-skyline2.jpg) no-repeat center;
+	background: linear-gradient(rgba(17, 35, 120, 0.3), rgba(17, 35, 120, 1.0)), url(toronto.jpg) no-repeat center;
 	background-size: cover;
 	max-width: 100%;
 	width: 100%;
@@ -193,10 +193,6 @@ input.submit:hover, input.submit:focus {
 	background: #F0DFBC;
 	padding: 5rem;
 	width: 70%;
-	/*display: -webkit-flex;
-	display: flex;
-	-webkit-flex-wrap: wrap;
-	flex-wrap: wrap;*/
 }
 .result h2 {
 	padding: 0;
